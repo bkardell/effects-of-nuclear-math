@@ -8,22 +8,6 @@
 	<title>The Effects of Nuclear Weapons - Glasstone and Dolan | Chapter X</title>
 	<link rel="stylesheet" href="style.css">
 	<script async src="script.js"></script>
-	<script id="MathJax-script" async src="mathjax/tex-chtml.js"></script>
-	<script>
-		MathJax = {
-			tex: {
-				inlineMath: [['$', '$'], ['\\(', '\\)']]
-			},
-			svg: {
-				fontCache: 'global'
-			}
-		};
-		MathJax.Hub.Config({
-			CommonHTML: {
-				linebreaks: { automatic: true }
-			}
-		});
-	</script>
 </head>
 
 <body>
@@ -138,7 +122,7 @@
 
 			<h3>CHARACTERISTICS OF THE IONOSPHERE</h3>
 			<p id="§10.13"><strong>10.13</strong> The composition of the atmosphere, especially at the higher altitudes, varies with the time of day and with the degree of solar activity; however, a general description that is applicable to daytime conditions and mean sunspot activity is sufficient for the present purpose. Near the earth's surface, the principal constituents of the atmosphere are molecular nitrogen (N<sub>2</sub>) and molecular oxygen (O<sub>2</sub>). These diatomic gases continue to be the dominant ones up to an altitude of approximately 75 miles. At about 55 miles, ultraviolet radiation from the sun begins to dissociate the oxygen molecules into two atoms of oxygen (O). The extent of dissociation increases with altitude, so that above 120 miles or so, oxygen atoms are the dominant species in the low-pressure atmosphere. This condition persists up to an altitude of some 600 miles. Ozone (O<sub>3</sub>) and nitric oxide (NO) are formed in the lower atmosphere by the action of solar radiations on the oxygen and nitrogen. Although the amounts of ozone and nitric oxide are quite small, they are important because each absorbs radiation and enters into chemical reactions in a characteristic manner.</p>
-			<p id="§10.14"><strong>10.14</strong> The electrons (and positive ions) in the normal ionosphere are produced by the interactions of solar radiations of short wavelength with the various molecular and atomic species present in the atmosphere. In the D region, the ions are almost exclusively NO+, and these ions are also the most important in the E-region; in the latter region, however, there are, in addition, about one-third as many $\text{O}^+_2$ ions. Atomic oxygen ions, O+, begin to appear in the upper parts of the E-region, and their proportion increases with altitude. In the F-region, the proportion of NO+ and $\text{O}^+_2$ ions decreases, whereas that of O+ increases steadily. Above an altitude of about 120 miles (up to 600 miles), O+ ions are dominant.</p>
+			<p id="§10.14"><strong>10.14</strong> The electrons (and positive ions) in the normal ionosphere are produced by the interactions of solar radiations of short wavelength with the various molecular and atomic species present in the atmosphere. In the D region, the ions are almost exclusively NO+, and these ions are also the most important in the E-region; in the latter region, however, there are, in addition, about one-third as many <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msubsup><mtext>O</mtext><mn>2</mn><mo>+</mo></msubsup><annotation encoding="TeX">\text{O}^+_2</annotation></semantics></math> ions. Atomic oxygen ions, O+, begin to appear in the upper parts of the E-region, and their proportion increases with altitude. In the F-region, the proportion of NO+ and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msubsup><mtext>O</mtext><mn>2</mn><mo>+</mo></msubsup><annotation encoding="TeX">\text{O}^+_2</annotation></semantics></math> ions decreases, whereas that of O+ increases steadily. Above an altitude of about 120 miles (up to 600 miles), O+ ions are dominant.</p>
 			<p id="§10.15"><strong>10.15</strong> The actual electron density at any altitude depends on the rate of formation of electrons as a result of ionization and their rate of removal, either by recombination with positive ions or by attachment to neutral particles (molecules or atoms). Recombination tends to be the more important removal process at high altitudes (low atmospheric pressure), whereas attachment to neutral particles predominates at lower altitudes, where molecular nitrogen and oxygen are the main components of the atmosphere.</p>
 			<p id="§10.16"><strong>10.16</strong> At altitudes below about 30 miles, i.e., below the D-region, where the air is relatively dense, the probability of interaction between free electrons and neutral molecules is large. The few electrons that are produced by short wavelength solar radiation that penetrates so low into the atmosphere are thus rapidly removed by attachment. The density of free electrons in the atmosphere below about 30 miles is consequently so small that it can be neglected.</p>
 			<p id="§10.17"><strong>10.17</strong> In the altitude range from roughly 30 to 55 miles (D-region of the ionosphere), the density of neutral particles is relatively low, between about 10<sup>-3</sup> and 10<sup>-5</sup> of the sea-level density. Because of this low density, the rate of attachment is not large and electrons remain free for several minutes. The average lifetime varies with location and the time of the year, but it is long enough for the radiation from the sun to maintain a peak density between about 10<sup>2</sup> and 10<sup>3</sup> electrons per cubic centimeter (electrons/cm<sup>3</sup>) in the daytime. At night, when electrons are no longer being generated by solar radiations, the free electrons in the D-region disappear. Although the density of neutral particles is small enough to permit the electrons (in the daytime) to have an appreciable average life, it is nevertheless sufficiently large for collisions to cause considerable attenuation of electromagnetic waves, in the manner described in <a href="chapter1.html#§1.05" class="xref">§ 10.05</a>.</p>
@@ -486,27 +470,27 @@
 			<div id="§10.123"><p><strong>10.123</strong> The decrease in density of the atmosphere with increasing altitude can be represented approximately by the equation</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>ρ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo><mspace width="0.2777777777777778em"/><mo>≈</mo><mspace width="0.2777777777777778em"/><msub><mi>ρ</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>−</mo><mi>h</mi><mo>/</mo><msub><mi>H</mi><mi>ρ</mi></msub></mrow></msup><msup><mtext> g cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 			\rho(h) \;\approx\; \rho_0 e^{-h/H_\rho} \text{ g cm}^{-3},
-\]
+</annotation></semantics></math>
 <figcaption>(10.123.1)</figcaption>
 </figure>
 
-			<p>where $\rho(h)$ and $\rho_0$ are the densities, in g/cm<sup>3</sup> at height $h$ and at sea level, respectively, and $H_\rho$ is called the scale height; $h$ and $H_\rho$ must be expressed in the same units of length, e.g., miles. Because both temperature and composition of the air change with altitude, the scale height is not actually a constant. However, below about 60 miles, use of a constant density scale height of 4.3 miles in equation (10.123.1) gives a fairly good representation of the change in atmospheric density with altitude. For higher altitudes the density scale height increases, i.e., the density varies more slowly with altitude, but since altitudes below 60 miles are of primary interest for the present purpose, the simple exponential relationships with constant scale height will be employed.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">\rho(h)</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ρ</mi><mn>0</mn></msub><annotation encoding="TeX">\rho_0</annotation></semantics></math> are the densities, in g/cm<sup>3</sup> at height <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><annotation encoding="TeX">h</annotation></semantics></math> and at sea level, respectively, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mi>ρ</mi></msub><annotation encoding="TeX">H_\rho</annotation></semantics></math> is called the scale height; <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><annotation encoding="TeX">h</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mi>ρ</mi></msub><annotation encoding="TeX">H_\rho</annotation></semantics></math> must be expressed in the same units of length, e.g., miles. Because both temperature and composition of the air change with altitude, the scale height is not actually a constant. However, below about 60 miles, use of a constant density scale height of 4.3 miles in equation (10.123.1) gives a fairly good representation of the change in atmospheric density with altitude. For higher altitudes the density scale height increases, i.e., the density varies more slowly with altitude, but since altitudes below 60 miles are of primary interest for the present purpose, the simple exponential relationships with constant scale height will be employed.</p></div>
 			<div id="§10.124"><p><strong>10.124</strong> By setting Hp in equation (10.123.1) equal to 4.3 miles, the result is</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>ρ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo><mspace width="0.2777777777777778em"/><mo>≈</mo><mspace width="0.2777777777777778em"/><msub><mi>ρ</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mo>−</mo><mi>h</mi><mo>/</mo><mn>4.3</mn></mrow></msup></mrow><annotation encoding="TeX">
 \rho (h) \;\approx\; \rho_0 e^{-h/4.3}
-\]
+</annotation></semantics></math>
 <figcaption>(10.124.1)</figcaption>
 </figure>
 
 			<p>and this expression, with h in miles, will be used later. If the base of the exponent is changed from e to 10, where e = 10<sup>-2.3</sup>, then</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>ρ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo><mspace width="0.2777777777777778em"/><mo>≈</mo><mspace width="0.2777777777777778em"/><msub><mi>ρ</mi><mn>0</mn></msub><mi>l</mi><msup><mn>0</mn><mrow><mo>−</mo><mi>W</mi><mn>43</mn><mo>×</mo><mn>2.3</mn></mrow></msup><mspace width="0.2777777777777778em"/><mo>≈</mo><mspace width="0.2777777777777778em"/><msub><mi>ρ</mi><mn>0</mn></msub><msup><mn>10</mn><mrow><mo>−</mo><mi>W</mi><mn>10</mn></mrow></msup></mrow><annotation encoding="TeX">
 \rho (h) \;\approx\; \rho_0 l0^{-W43 \times 2.3} \;\approx\; \rho_0 10^{-W10}
-\]
+</annotation></semantics></math>
 
 			<p>It follows, therefore, that in the altitude range of interest, the density of the atmosphere decreases approximately by a factor of 10 for every 10 miles increase in altitude. Thus, at an altitude of 40 miles the air density is about 10<sup>-4</sup> and at 60 miles roughly 10<sup>-6</sup> of the sea-level density.</p></div>
 
@@ -514,43 +498,43 @@
 			<p id="§10.125"><strong>10.125</strong> The propagation of electromagnetic waves of a given frequency through a medium can be described in terms of a “complex” index of refraction, consisting of a real part and an imaginary part. The real part is a phase factor which determines the phase shift and ordinary index of refraction, i.e., the ratio of the phase velocity of the electromagnetic waves in a vacuum to that in the given medium. The imaginary part, on the other hand, is related to the attenuation of the waves by absorption in the medium. From the equations of motion of electromagnetic waves, it is possible to derive expressions for the index of refraction and for the attenuation in an ionized medium. Appropriate forms of these expressions are given and discussed below, with special reference to the effects of nuclear explosions on the ionization of the atmosphere.</p>
 			<div id="§10.126"><p><strong>10.126</strong> Attenuation of electromagnetic (and other) signals is commonly stated in terms of decibels; thus,</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>Attenuation in decibels </mtext><mo>=</mo><mn>10</mn><mo lspace="0em" rspace="0em">log</mo><mfrac><msub><mi>P</mi><mtext>in</mtext></msub><msub><mi>P</mi><mtext>out</mtext></msub></mfrac><mo>,</mo></mrow><annotation encoding="TeX">
 \text{Attenuation in decibels } = 10 \log \frac{ P_{\text{in}}}{ P_{\text{out}}},
-\]
-			<p>where $P_{\text{in}}$ is the signal power (or strength) before attenuation and $P_{\text{out}}$ is that after attenuation. An attenuation of 10 decibels implies that the signal strength has been reduced to 10<sup>-1</sup>, 20 decibels to 10<sup>-2</sup>, 30 decibels to 10<sup>-3</sup>, and so on, of the original strength. A decrease of 20 to 40 decibels, depending on the original signal power and the noise level, will generally result in serious degradation of communications. As a rough guide, it may be taken that an attenuation of 30 decibels will reduce substantially the effectiveness of a radio or radar system.</p>
+</annotation></semantics></math>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>P</mi><mtext>in</mtext></msub><annotation encoding="TeX">P_{\text{in}}</annotation></semantics></math> is the signal power (or strength) before attenuation and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>P</mi><mtext>out</mtext></msub><annotation encoding="TeX">P_{\text{out}}</annotation></semantics></math> is that after attenuation. An attenuation of 10 decibels implies that the signal strength has been reduced to 10<sup>-1</sup>, 20 decibels to 10<sup>-2</sup>, 30 decibels to 10<sup>-3</sup>, and so on, of the original strength. A decrease of 20 to 40 decibels, depending on the original signal power and the noise level, will generally result in serious degradation of communications. As a rough guide, it may be taken that an attenuation of 30 decibels will reduce substantially the effectiveness of a radio or radar system.</p>
 			<div id="§10.127"><p><strong>10.127</strong> From the theory of the propagation of electromagnetic waves through an ionized medium, it is found that the signal attenuation, a, in decibels per mile of travel path, is given by</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><mn>7.4</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mfrac><mrow><msub><mi>N</mi><mi>e</mi></msub><mi>v</mi></mrow><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>+</mo><msup><mi>v</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding="TeX">
 a = 7.4 \times 10^4 \frac{N_e v}{\omega^2 + v^2}
-\]
+</annotation></semantics></math>
 <figcaption>(10.127.1)</figcaption>
 </figure>
 
-			<p>where $N_e$ is the electron density, i.e., number of electrons per cubic centimeter, $v$ is the number of collisions per second which an electron makes with ions, molecules, or atoms, and $\omega$ is the (angular) frequency of the wave (in radians per second). It follows from equation (10.127.1) that if the collision frequency $v$ is small then, for a given wave frequency, $a$ will be small because of the $v$ in the numerator. On the other hand, if $v$ is very large, $a$ will again be small because of the $v^2$ in the denominator. Thus, the attenuation passes through a maximum for a particular value of the electron collision frequency.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>e</mi></msub><annotation encoding="TeX">N_e</annotation></semantics></math> is the electron density, i.e., number of electrons per cubic centimeter, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="TeX">v</annotation></semantics></math> is the number of collisions per second which an electron makes with ions, molecules, or atoms, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ω</mi><annotation encoding="TeX">\omega</annotation></semantics></math> is the (angular) frequency of the wave (in radians per second). It follows from equation (10.127.1) that if the collision frequency <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="TeX">v</annotation></semantics></math> is small then, for a given wave frequency, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="TeX">a</annotation></semantics></math> will be small because of the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="TeX">v</annotation></semantics></math> in the numerator. On the other hand, if <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="TeX">v</annotation></semantics></math> is very large, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="TeX">a</annotation></semantics></math> will again be small because of the <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>v</mi><mn>2</mn></msup><annotation encoding="TeX">v^2</annotation></semantics></math> in the denominator. Thus, the attenuation passes through a maximum for a particular value of the electron collision frequency.</p></div>
 			<p id="§10.128"><strong>10.128</strong> Since the collision frequency is proportional to the density of the air, it will decrease exponentially with altitude. It is to be expected, therefore, that the values of v for which attenuation of signals is important would occur only within a relatively narrow altitude region. Theoretical studies show that the attenuation of radio and radar signals caused by nuclear explosions occurs mainly within a 10-mile range centered about an altitude of 40 miles. Hence, by confining attention to the situation in the neighborhood of a 40 mile altitude, it is possible to avoid complexities and yet present a reasonably accurate picture of the effects of the burst on electromagnetic signals.</p>
 			<p id="§10.129"><strong>10.129</strong> There are two exceptions to the foregoing generalizations: (1) attenuation within or close to the fireball or debris regions, and (2) nighttime attenuation by ionization resulting from prompt radiation. In the former case, the altitude of the region of maximum attenuation is governed by the altitude and size of the fireball or debris region. In the second case, the altitude of peak attenuation is about 55 miles, but since the electron density due to delayed radiation is dominant at night after only a few seconds, the prompt ionization can be ignored. The present treatment will, therefore, be mainly concerned with the 10-mile range of the atmosphere centered at an altitude of 40 miles.</p>
 			<div id="§10.130"><p><strong>10.130</strong> For electromagnetic wave frequencies greater than about 10 megahertz, v<sup>2</sup> at an altitude of 40 miles may be neglected in comparison with w<sup>2</sup> in the denominator of equation (10.127.1); this equation then reduces to</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><mn>7.4</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mfrac><mrow><msub><mi>N</mi><mi>e</mi></msub><mi>v</mi></mrow><msup><mi>ω</mi><mn>2</mn></msup></mfrac><mtext> decibels per mile,</mtext></mrow><annotation encoding="TeX">
 a = 7.4 \times 10^4 \frac{N_e v}{\omega^2} \text{ decibels per mile,}
-\]
+</annotation></semantics></math>
 <figcaption>(10.130.1)</figcaption>
 </figure>
 			
-			<p>so that the attenuation (in decibels) is approximately proportional to the electron collision frequency. At 40 miles altitude, the latter is roughly 2 &times; 10<sup>7</sup> per second. Upon inserting this value for $v$ in equation (10.130.1) and converting the wave frequency from radians per second to megahertz, the result is</p>
+			<p>so that the attenuation (in decibels) is approximately proportional to the electron collision frequency. At 40 miles altitude, the latter is roughly 2 &times; 10<sup>7</sup> per second. Upon inserting this value for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="TeX">v</annotation></semantics></math> in equation (10.130.1) and converting the wave frequency from radians per second to megahertz, the result is</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>a</mi><mo>=</mo><mn>4</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mfrac><msub><mi>N</mi><mi>e</mi></msub><msup><mi>f</mi><mn>2</mn></msup></mfrac><mtext> decibels per mile,</mtext></mrow><annotation encoding="TeX">
 a = 4 \times 10^{-2} \frac{N_e}{f^2} \text{ decibels per mile,}
-\]
+</annotation></semantics></math>
 
-			<p>where $f$ is the wave frequency in megahertz, i.e., $10^{-6} \omega/2\pi$. If the signal beam has an angle of incidence $i$, referred to the vertical, and the ionized region is 10 miles thick, the total attenuation, $A$, is</p>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="TeX">f</annotation></semantics></math> is the wave frequency in megahertz, i.e., <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup><mi>ω</mi><mo>/</mo><mn>2</mn><mi>π</mi></mrow><annotation encoding="TeX">10^{-6} \omega/2\pi</annotation></semantics></math>. If the signal beam has an angle of incidence <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>i</mi><annotation encoding="TeX">i</annotation></semantics></math>, referred to the vertical, and the ionized region is 10 miles thick, the total attenuation, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="TeX">A</annotation></semantics></math>, is</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>A</mi><mo>=</mo><mn>0.4</mn><mfrac><msub><mi>N</mi><mi>e</mi></msub><msup><mi>f</mi><mn>2</mn></msup></mfrac><mtext> sec </mtext><mi>i</mi><mtext> decibels,</mtext></mrow><annotation encoding="TeX">
 A = 0.4 \frac{N_e}{f^2} \text{ sec } i \text{ decibels,}
-\]
+</annotation></semantics></math>
 <figcaption>(10.130.2)</figcaption>
 </figure>
 
@@ -560,57 +544,57 @@ A = 0.4 \frac{N_e}{f^2} \text{ sec } i \text{ decibels,}
 			<div id="§10.133"><p><strong>10.133</strong> Consideration will now be given to the phase aspects of the propagation of electromagnetic waves through an ionized medium. Provided the electron collision frequency, v, is small in comparison with the wave frequency, w, as has been assumed above, the ordinary (real) index of refraction, n, is given by</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>n</mi><mo>=</mo><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mfrac><mrow><mn>4</mn><mi>π</mi><msub><mi>N</mi><mi>e</mi></msub><msup><mi>e</mi><mn>2</mn></msup></mrow><mrow><mi>m</mi><msup><mi>ω</mi><mn>2</mn></msup></mrow></mfrac></mrow><mo>)</mo></mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup><mo>=</mo><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mfrac><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>12</mn></mrow></msup><msub><mi>N</mi><mi>e</mi></msub><msup><mi>e</mi><mn>2</mn></msup></mrow><mrow><mi>π</mi><mspace width="0.2777777777777778em"/><mi>m</mi><msup><mi>f</mi><mn>2</mn></msup></mrow></mfrac></mrow><mo>)</mo></mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="TeX">
 n = \left( 1 - \frac{4\pi N_e e^2}{m \omega^2} \right)^{1/2} = \left( 1 - \frac{10^{-12} N_e e^2}{\pi\; m f^2} \right)^{1/2}
-\]
+</annotation></semantics></math>
 <figcaption>(10.133.1)</figcaption>
 </figure>
 
-			<p>where $e$ is the charge (4.8 &times; 10<sup>-10</sup> electrostatic unit) and $m$ is the mass (9.1 &times; 10<sup>-28</sup> gram) of the electron, and $f$ is the wave frequency in megahertz. Upon inserting the numerical values for $e$ and $m$, it is found that</p>
-\[
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>e</mi><annotation encoding="TeX">e</annotation></semantics></math> is the charge (4.8 &times; 10<sup>-10</sup> electrostatic unit) and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>m</mi><annotation encoding="TeX">m</annotation></semantics></math> is the mass (9.1 &times; 10<sup>-28</sup> gram) of the electron, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="TeX">f</annotation></semantics></math> is the wave frequency in megahertz. Upon inserting the numerical values for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>e</mi><annotation encoding="TeX">e</annotation></semantics></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>m</mi><annotation encoding="TeX">m</annotation></semantics></math>, it is found that</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>n</mi><mo>=</mo><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mfrac><mrow><mn>0.8</mn><msub><mi>N</mi><mi>e</mi></msub></mrow><mrow><msup><mn>10</mn><mn>4</mn></msup><msup><mi>f</mi><mn>2</mn></msup></mrow></mfrac></mrow><mo>)</mo></mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="TeX">
 n = \left( 1 - \frac{0.8 N_e}{10^4 f^2} \right)^{1/2}
-\]
+</annotation></semantics></math>
 
 			<p>Since electron densities are not known very accurately, this result may be approximated to</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>n</mi><mo>≈</mo><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mfrac><msub><mi>N</mi><mi>e</mi></msub><mrow><msup><mn>10</mn><mn>4</mn></msup><msup><mi>f</mi><mn>2</mn></msup></mrow></mfrac></mrow><mo>)</mo></mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="TeX">
 n \approx \left( 1 - \frac{N_e}{10^4 f^2} \right)^{1/2}
-\]
+</annotation></semantics></math>
 <figcaption>(10.133.2)</figcaption>
 </figure>
 </div>
-			<div id="§10.134"><p><strong>10.134</strong> If an electromagnetic wave crosses a plane interface where the index of refraction changes sharply from 1 to $n$, a beam will be bent by an amount given by the familiar Snell's law, i.e.,</p>
+			<div id="§10.134"><p><strong>10.134</strong> If an electromagnetic wave crosses a plane interface where the index of refraction changes sharply from 1 to <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="TeX">n</annotation></semantics></math>, a beam will be bent by an amount given by the familiar Snell's law, i.e.,</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mo lspace="0em" rspace="0em">sin</mo><mi>i</mi></mrow><mrow><mo lspace="0em" rspace="0em">sin</mo><mi>r</mi></mrow></mfrac><mo>=</mo><mi>n</mi><mo>,</mo></mrow><annotation encoding="TeX">
 \frac{\sin i}{\sin r} = n,
-\]
+</annotation></semantics></math>
 
-			<p>where $i$ is the angle of incidence and $r$ the angle of refraction. If the index of refraction is such that $n = \sin i$, then $\sin r = l$, i.e., $r$ = 90°, and critical reflection occurs; the refraction is so large that the signal is unable to penetrate the medium. The condition for critical reflection by an ionized medium is obtained by setting n in equation (10.133.2) equal to $\sin i$; the result obtained is</p>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>i</mi><annotation encoding="TeX">i</annotation></semantics></math> is the angle of incidence and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>r</mi><annotation encoding="TeX">r</annotation></semantics></math> the angle of refraction. If the index of refraction is such that <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mo lspace="0em" rspace="0em">sin</mo><mi>i</mi></mrow><annotation encoding="TeX">n = \sin i</annotation></semantics></math>, then <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo lspace="0em" rspace="0em">sin</mo><mi>r</mi><mo>=</mo><mi>l</mi></mrow><annotation encoding="TeX">\sin r = l</annotation></semantics></math>, i.e., <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>r</mi><annotation encoding="TeX">r</annotation></semantics></math> = 90°, and critical reflection occurs; the refraction is so large that the signal is unable to penetrate the medium. The condition for critical reflection by an ionized medium is obtained by setting n in equation (10.133.2) equal to <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo lspace="0em" rspace="0em">sin</mo><mi>i</mi></mrow><annotation encoding="TeX">\sin i</annotation></semantics></math>; the result obtained is</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>f</mi><mo>≈</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><msub><msqrt><mi>N</mi></msqrt><mi>e</mi></msub><mtext> sec </mtext><mi>i</mi><mtext> (for critical reflection). </mtext></mrow><annotation encoding="TeX">
 f \approx 10^{-2} \sqrt N_e \text{ sec } i \text{ (for critical reflection). }
-\]
+</annotation></semantics></math>
 <figcaption>(10.134.1)</figcaption>
 </figure>
 
-			<p>For reflection of an electromagnetic signal encountering a given ionized medium, with electron density $N_e$, the frequency must be less than that expressed by equation (10.134.1). Alternatively, for reflection of a signal of specified frequency $f$, the electron density of the ionized medium must be greater than that given by this equation.<sup><a href="#fnote04">4</a></sup></p></div>
+			<p>For reflection of an electromagnetic signal encountering a given ionized medium, with electron density <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>e</mi></msub><annotation encoding="TeX">N_e</annotation></semantics></math>, the frequency must be less than that expressed by equation (10.134.1). Alternatively, for reflection of a signal of specified frequency <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="TeX">f</annotation></semantics></math>, the electron density of the ionized medium must be greater than that given by this equation.<sup><a href="#fnote04">4</a></sup></p></div>
 			<p id="§10.135"><strong>10.135</strong> As in <a href="chapter1.html#§1.132" class="xref">§ 10.132</a>, sec i may be taken to be about 5 for an operational HF system. Hence, for a signal of 5 megahertz, at the lower end of the band, to be reflected, the electron density must exceed 10<sup>4</sup> electrons/cm<sup>3</sup>. For a frequency of 30 megahertz, the minimum density for reflection is 3.6 &times; 10<sup>5</sup> electrons/cm<sup>3</sup>. These densities are normally attained in the E- and F-regions of the ionosphere, respectively. A change in the electron density arising from the effects of a nuclear explosion can alter the altitude at which an electromagnetic wave is reflected and can consequently affect communications systems, as seen earlier in this chapter.</p>
-			<p id="§10.136"><strong>10.136</strong> Equation (10.134.1) is applicable only when a nonionized medium is separated from an ionized one by a sharp boundary at which the change in refractive index, from 1 to $n$, occurs over a distance small in comparison to a wavelength at the propagation frequency. This condition does not exist either in the normal ionosphere or after it has been disturbed by a nuclear detonation. The refractive index does not change sharply and there is a gradual bending of the transmitted wave. In such situations, both the electron density and its gradient determine the phase (refraction) effects.</p>
-			<p id="§10.137"><strong>10.137</strong> When the quantity $N_e/f^2$ is sufficiently large, electromagnetic waves can be both attenuated and refracted by the ionized medium. The effect that predominates depends on the ratio of the electron density gradient to the electron collision frequency. If this ratio is large, then the wave will be refracted, but if it is small the main effect will be attenuation. In most circumstances associated with a nuclear explosion, attenuation around 40 miles altitude predominates. At altitudes above about 60 miles, however, where the collision frequency is small and the electron density gradient moderately large, refraction may be important. Also, near the fireball but outside the absorbing region, refraction of electromagnetic. waves up to high frequencies, such as radar signals, is possible (<a href="chapter10.html#§10.37" class="xref">§ 10.37</a>). Although the collision frequency is large, the high electron density gradient is here the dominant factor. Within the fireball itself, however, electromagnetic waves are always strongly absorbed.</p>
+			<p id="§10.136"><strong>10.136</strong> Equation (10.134.1) is applicable only when a nonionized medium is separated from an ionized one by a sharp boundary at which the change in refractive index, from 1 to <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="TeX">n</annotation></semantics></math>, occurs over a distance small in comparison to a wavelength at the propagation frequency. This condition does not exist either in the normal ionosphere or after it has been disturbed by a nuclear detonation. The refractive index does not change sharply and there is a gradual bending of the transmitted wave. In such situations, both the electron density and its gradient determine the phase (refraction) effects.</p>
+			<p id="§10.137"><strong>10.137</strong> When the quantity <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo>/</mo><msup><mi>f</mi><mn>2</mn></msup></mrow><annotation encoding="TeX">N_e/f^2</annotation></semantics></math> is sufficiently large, electromagnetic waves can be both attenuated and refracted by the ionized medium. The effect that predominates depends on the ratio of the electron density gradient to the electron collision frequency. If this ratio is large, then the wave will be refracted, but if it is small the main effect will be attenuation. In most circumstances associated with a nuclear explosion, attenuation around 40 miles altitude predominates. At altitudes above about 60 miles, however, where the collision frequency is small and the electron density gradient moderately large, refraction may be important. Also, near the fireball but outside the absorbing region, refraction of electromagnetic. waves up to high frequencies, such as radar signals, is possible (<a href="chapter10.html#§10.37" class="xref">§ 10.37</a>). Although the collision frequency is large, the high electron density gradient is here the dominant factor. Within the fireball itself, however, electromagnetic waves are always strongly absorbed.</p>
 
 			<h3>ELECTRON PRODUCTION BY PROMPT RADIATIONS</h3>
-			<div id="§10.138"><p><strong>10.138</strong> Consider a nuclear explosion of $W$ kilotons yield and let $k$ be the fraction of the yield radiated at a particular energy, i.e., as monochromatic radiation. For a point source of such radiation, assuming negligible scattering and no reradiation, the energy deposited (or absorbed) per unit volume of air, $E_D$, at an “observation” point at a slant distance $D$ from the explosion is</p>
+			<div id="§10.138"><p><strong>10.138</strong> Consider a nuclear explosion of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="TeX">W</annotation></semantics></math> kilotons yield and let <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="TeX">k</annotation></semantics></math> be the fraction of the yield radiated at a particular energy, i.e., as monochromatic radiation. For a point source of such radiation, assuming negligible scattering and no reradiation, the energy deposited (or absorbed) per unit volume of air, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>E</mi><mi>D</mi></msub><annotation encoding="TeX">E_D</annotation></semantics></math>, at an “observation” point at a slant distance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="TeX">D</annotation></semantics></math> from the explosion is</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>E</mi><mi>D</mi></msub><mo>=</mo><mfrac><mrow><mi>k</mi><mi>W</mi></mrow><mrow><mn>4</mn><mi>π</mi><msup><mi>D</mi><mn>2</mn></msup></mrow></mfrac><mi>ρ</mi><msub><mi>μ</mi><mi>m</mi></msub><msup><mi>e</mi><mrow><mo>−</mo><msub><mi>μ</mi><mi>M</mi></msub><mi>M</mi></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 E_D = \frac{kW}{4 \pi D^2} \rho \mu_m e^{-\mu_M M},
-\]
+</annotation></semantics></math>
 <figcaption>(10.138.1)</figcaption>
 </figure>
 
-			<p>where $\rho$ is the air density at the observation altitude, $\mu_m$, is the mass (energy) absorption coefficient in air of the given radiation,<sup><a href="#fnote05">5</a></sup> and $M$ is the penetration mass, i.e., the mass of air per unit area between the radiation source and the observation point. This equation may be used for all forms of prompt radiation, using the appropriate value of $k$ given in Table 10.138. The fraction of the energy radiated as prompt gamma rays is small and its contribution to the electron density is generally less than the for other radiations. If the energy deposited in the air is reradiated or if the source photons or neutrons are scattered and follow a random path before depositing all their energy, equation (10.138.1) must be modified (<a href="chapter10.html#§10.142" class="xref">§ 10.142</a>).</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ρ</mi><annotation encoding="TeX">\rho</annotation></semantics></math> is the air density at the observation altitude, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mi>m</mi></msub><annotation encoding="TeX">\mu_m</annotation></semantics></math>, is the mass (energy) absorption coefficient in air of the given radiation,<sup><a href="#fnote05">5</a></sup> and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math> is the penetration mass, i.e., the mass of air per unit area between the radiation source and the observation point. This equation may be used for all forms of prompt radiation, using the appropriate value of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>k</mi><annotation encoding="TeX">k</annotation></semantics></math> given in Table 10.138. The fraction of the energy radiated as prompt gamma rays is small and its contribution to the electron density is generally less than the for other radiations. If the energy deposited in the air is reradiated or if the source photons or neutrons are scattered and follow a random path before depositing all their energy, equation (10.138.1) must be modified (<a href="chapter10.html#§10.142" class="xref">§ 10.142</a>).</p></div>
 
 <figure class="table" id="tbl10-138">
 <style>
@@ -642,32 +626,32 @@ E_D = \frac{kW}{4 \pi D^2} \rho \mu_m e^{-\mu_M M},
 					</table>
 					</figure>
 
-			<div id="§10.139"><p><strong>10.139</strong> According to Table 1.45, 1 kiloton TNT equivalent of energy is equal to 2.6 &times; 10<sup>25</sup> million electron volts. Furthermore, about 3 &times; 10<sup>4</sup> <span class="sic">ions</span> pairs, i.e., 3 &times; 10<sup>4</sup> electrons, are produced for each million electron volts of energy absorbed in air (about 34 electron volts are required to produce an ion pair). Consequently, about 8 &times; 10<sup>29</sup> electrons are produced for each kiloton of energy deposited in the air. Hence, the number of free electrons per unit volume, $N_e$, is obtained from equation (10.138.1), with $W$ in kilotons, as</p>
+			<div id="§10.139"><p><strong>10.139</strong> According to Table 1.45, 1 kiloton TNT equivalent of energy is equal to 2.6 &times; 10<sup>25</sup> million electron volts. Furthermore, about 3 &times; 10<sup>4</sup> <span class="sic">ions</span> pairs, i.e., 3 &times; 10<sup>4</sup> electrons, are produced for each million electron volts of energy absorbed in air (about 34 electron volts are required to produce an ion pair). Consequently, about 8 &times; 10<sup>29</sup> electrons are produced for each kiloton of energy deposited in the air. Hence, the number of free electrons per unit volume, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>e</mi></msub><annotation encoding="TeX">N_e</annotation></semantics></math>, is obtained from equation (10.138.1), with <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="TeX">W</annotation></semantics></math> in kilotons, as</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo>=</mo><mn>2.4</mn><mo>×</mo><msup><mn>10</mn><mn>18</mn></msup><mfrac><mrow><mi>k</mi><mi>W</mi></mrow><msup><mi>D</mi><mn>2</mn></msup></mfrac><mi>ρ</mi><msub><mi>μ</mi><mi>m</mi></msub><msup><mi>e</mi><mrow><mo>−</mo><msub><mi>μ</mi><mi>m</mi></msub><mi>M</mi></mrow></msup><msup><mtext> cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 N_e = 2.4 \times 10^{18} \frac{kW}{D^2} \rho \mu_m e^{-\mu_m M} \text{ cm}^{-3},
-\]
+</annotation></semantics></math>
 <figcaption>(10.139.1)</figcaption>
 </figure>
 
-			<p>with $\rho$ in grams per cubic centimeter, $\mu_m$ in square centimeters per gram, $M$ in grams per square centimeter, and $D$ in miles.</p></div>
-			<div id="§10.140"><p><strong>10.140</strong> An expression for $M$ may be obtained in the following manner. Let $H_0$ (Fig. 10.140) be the altitude of the explosion point and $H$ that of the observation point which is at a distance $D$ from the burst. Then if $D'$ represents any position between the explosion and the observation point, and $h$ is the corresponding altitude, the value of $M$ in appropriate units is given by</p>
+			<p>with <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ρ</mi><annotation encoding="TeX">\rho</annotation></semantics></math> in grams per cubic centimeter, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mi>m</mi></msub><annotation encoding="TeX">\mu_m</annotation></semantics></math> in square centimeters per gram, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math> in grams per square centimeter, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="TeX">D</annotation></semantics></math> in miles.</p></div>
+			<div id="§10.140"><p><strong>10.140</strong> An expression for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math> may be obtained in the following manner. Let <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mn>0</mn></msub><annotation encoding="TeX">H_0</annotation></semantics></math> (Fig. 10.140) be the altitude of the explosion point and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>H</mi><annotation encoding="TeX">H</annotation></semantics></math> that of the observation point which is at a distance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="TeX">D</annotation></semantics></math> from the burst. Then if <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>D</mi><mo>′</mo></msup><annotation encoding="TeX">D'</annotation></semantics></math> represents any position between the explosion and the observation point, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><annotation encoding="TeX">h</annotation></semantics></math> is the corresponding altitude, the value of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math> in appropriate units is given by</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>M</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>D</mi></msubsup><mi>ρ</mi><mo stretchy="false">(</mo><msup><mi>D</mi><mo>′</mo></msup><mo stretchy="false">)</mo><mi>d</mi><msup><mi>D</mi><mo>′</mo></msup><mo>=</mo><mfrac><mi>D</mi><mrow><mi>H</mi><mo>−</mo><msub><mi>H</mi><mn>0</mn></msub></mrow></mfrac><msubsup><mo>∫</mo><msub><mi>H</mi><mn>0</mn></msub><mi>H</mi></msubsup><mi>ρ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo><mi>d</mi><mi>h</mi><mo>,</mo></mrow><annotation encoding="TeX">
 M = \int_0^D \rho(D')dD' = \frac{D}{H - H_0} \int_{H_0}^H \rho(h)dh,
-\]
+</annotation></semantics></math>
 
-			<p>where, in deriving the second form, the curvature of the earth has been neglected. If $\rho(h)$ is now represented by equation (10.124.1), it is found that</p>
+			<p>where, in deriving the second form, the curvature of the earth has been neglected. If <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">\rho(h)</annotation></semantics></math> is now represented by equation (10.124.1), it is found that</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>M</mi><mo>=</mo><mn>6.8</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup><mfrac><mi>D</mi><mrow><mi>H</mi><mo>−</mo><msub><mi>H</mi><mn>0</mn></msub></mrow></mfrac><msub><mi>ρ</mi><mn>0</mn></msub><mrow><mo>(</mo><mrow><msup><mi>e</mi><mrow><msub><mi>H</mi><mn>0</mn></msub><mo>/</mo><mn>4.3</mn></mrow></msup><mo>−</mo><msup><mi>e</mi><mrow><mo>−</mo><mi>H</mi><mo>/</mo><mn>4.3</mn></mrow></msup></mrow><mo>)</mo></mrow><msup><mtext> g cm</mtext><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 M = 6.8 \times 10^5 \frac{D}{H - H_0} \rho_0 \left(e^{H_0 / 4.3} - e^{-H/4.3} \right) \text{ g cm}^{-2},
-\]
+</annotation></semantics></math>
 <figcaption>(10.140.1)</figcaption>
 </figure>
 
-			<p>where $D$, $H$, and $H_0$ are in miles and $\rho_0$ in grams per cubic centimeter; the factor 6.8 &times; 10<sup>5</sup>, which is the density scale height in centimeters (slightly less than 4.3 miles), is introduced to obtain the required units (g/cm<sup>2</sup>) for $M$.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="TeX">D</annotation></semantics></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>H</mi><annotation encoding="TeX">H</annotation></semantics></math>, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mn>0</mn></msub><annotation encoding="TeX">H_0</annotation></semantics></math> are in miles and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ρ</mi><mn>0</mn></msub><annotation encoding="TeX">\rho_0</annotation></semantics></math> in grams per cubic centimeter; the factor 6.8 &times; 10<sup>5</sup>, which is the density scale height in centimeters (slightly less than 4.3 miles), is introduced to obtain the required units (g/cm<sup>2</sup>) for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math>.</p></div>
 
 			<figure id="fig10-140">
 				<img src="figures/fig10-140.png" alt="" class="halfwidth">
@@ -676,17 +660,17 @@ M = 6.8 \times 10^5 \frac{D}{H - H_0} \rho_0 \left(e^{H_0 / 4.3} - e^{-H/4.3} \r
 				</figcaption>
 			</figure>
 
-			<p id="§10.141"><strong>10.141</strong> In general, the energy radiated from a nuclear explosion as gamma rays and X rays is not monochromatic but covers a range of photon energies. Hence, integration over the energy spectrum is necessary. For the range in which most of the gamma-ray energy is radiated, the mass absorption coefficient of air, $µ_m$, can be considered to be constant. But this is not the case for X-ray photons (of lower energy) for which the mass absorption coefficient is approximately inversely proportional to the cube of the energy. Furthermore, the situation is complicated as a result of energy changes that occur when the photons are scattered. For neutrons, the highest electron densities arise from elastic scattering (<a href="chapter10.html#§10.43" class="xref">§ 10.43</a>) and the necessity for summing over multiple scattering angles makes the calculations difficult, especially in an (inhomogeneous) atmosphere of changing density.</p>
+			<p id="§10.141"><strong>10.141</strong> In general, the energy radiated from a nuclear explosion as gamma rays and X rays is not monochromatic but covers a range of photon energies. Hence, integration over the energy spectrum is necessary. For the range in which most of the gamma-ray energy is radiated, the mass absorption coefficient of air, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mtext>µ</mtext><mi>m</mi></msub><annotation encoding="TeX">µ_m</annotation></semantics></math>, can be considered to be constant. But this is not the case for X-ray photons (of lower energy) for which the mass absorption coefficient is approximately inversely proportional to the cube of the energy. Furthermore, the situation is complicated as a result of energy changes that occur when the photons are scattered. For neutrons, the highest electron densities arise from elastic scattering (<a href="chapter10.html#§10.43" class="xref">§ 10.43</a>) and the necessity for summing over multiple scattering angles makes the calculations difficult, especially in an (inhomogeneous) atmosphere of changing density.</p>
 			<div id="§10.142"><p><strong>10.142</strong> Allowance for the effects of scattering and of the energy spectrum of the radiation can be made approximately by modifying equation (10.139.1) to take the form</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo>=</mo><mn>2.4</mn><mo>×</mo><msup><mn>10</mn><mn>18</mn></msup><mfrac><mrow><mi>k</mi><mi>W</mi></mrow><msup><mi>D</mi><mn>2</mn></msup></mfrac><mi>ρ</mi><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo><msup><mtext> cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 N_e = 2.4 \times 10^18 \frac{kW}{D^2} \rho F(M) \text{ cm}^{-3},
-\]
+</annotation></semantics></math>
 <figcaption>(10.142.1)</figcaption>
 </figure>
 
-			<p>where $F(M)$ is an effective mass absorption coefficient which is a function of the penetration mass, $M$. Values of $F(M)/\kappa$, where $\kappa$ is a normalization factor that permits $F(M)$ for various radiations to be plotted on a single diagram, are given in Fig. 10.142. The values of $\kappa$ used are shown in the insert.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">F(M)</annotation></semantics></math> is an effective mass absorption coefficient which is a function of the penetration mass, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math>. Values of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo><mo>/</mo><mi>κ</mi></mrow><annotation encoding="TeX">F(M)/\kappa</annotation></semantics></math>, where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>κ</mi><annotation encoding="TeX">\kappa</annotation></semantics></math> is a normalization factor that permits <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">F(M)</annotation></semantics></math> for various radiations to be plotted on a single diagram, are given in Fig. 10.142. The values of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>κ</mi><annotation encoding="TeX">\kappa</annotation></semantics></math> used are shown in the insert.</p></div>
 
 			<figure id="fig10-142">
 				<img src="figures/fig10-142.png" alt="" loading="lazy">
@@ -695,7 +679,7 @@ N_e = 2.4 \times 10^18 \frac{kW}{D^2} \rho F(M) \text{ cm}^{-3},
 				</figcaption>
 			</figure>
 
-			<p id="§10.143"><strong>10.143</strong> The electron densities produced by the total prompt radiation (neutrons and X rays) are obtained by summing the contributions of the individual radiations as given by the appropriate forms of equation (10.142.1). In this manner, the curves in Fig. 10.143 for electron densities at a height of 40 miles as a function of horizontal distance<sup><a href="#fnote06">6</a></sup> were derived for a 1-megaton explosion at various altitudes. Since the electron density is proportional to the energy yield, $W$, of the weapon, the results for other yields can be readily obtained from Fig. 10.143. In computing $M$ for this figure, the effects of a curved earth and a variable density scale height were included. The calculations show that below about 40 miles, ionization due to neutrons predominates, but for nuclear detonations at higher altitudes the X-rays produce essentially all the additional electrons from prompt ionization in the D-region.</p>
+			<p id="§10.143"><strong>10.143</strong> The electron densities produced by the total prompt radiation (neutrons and X rays) are obtained by summing the contributions of the individual radiations as given by the appropriate forms of equation (10.142.1). In this manner, the curves in Fig. 10.143 for electron densities at a height of 40 miles as a function of horizontal distance<sup><a href="#fnote06">6</a></sup> were derived for a 1-megaton explosion at various altitudes. Since the electron density is proportional to the energy yield, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="TeX">W</annotation></semantics></math>, of the weapon, the results for other yields can be readily obtained from Fig. 10.143. In computing <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="TeX">M</annotation></semantics></math> for this figure, the effects of a curved earth and a variable density scale height were included. The calculations show that below about 40 miles, ionization due to neutrons predominates, but for nuclear detonations at higher altitudes the X-rays produce essentially all the additional electrons from prompt ionization in the D-region.</p>
 
 			<figure id="fig10-143">
 				<img src="figures/fig10-143.png" alt="" loading="lazy">
@@ -713,19 +697,19 @@ N_e = 2.4 \times 10^18 \frac{kW}{D^2} \rho F(M) \text{ cm}^{-3},
 				<p>The curves in Fig. 10.143 show the initial electron densities at 40 miles altitude produced by the prompt radiation from a 1-megaton explosion as a function of distance, for various burst altitudes.
 				<p><em>Scaling.</em> For any specific combination of burst height and distance, the initial electron density at 40 miles altitude is directly proportional to the yield in megatons, i.e.,</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>W</mi><mo stretchy="false">)</mo><mo>=</mo><mi>W</mi><msub><mi>N</mi><mi>e</mi></msub><mtext>(1 MT)</mtext><mo>,</mo></mrow><annotation encoding="TeX">
 N_e(W) = WN_e \text{(1 MT)},
-\]
+</annotation></semantics></math>
 
-				<p>where $N_e$ (1 MT) is the value of the initial electron density at 40 miles altitude and the desired distance from a 1 MT explosion at the desired altitude, and $N_e(W)$ is the corresponding initial electron density for $W$ MT.</p>
+				<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>e</mi></msub><annotation encoding="TeX">N_e</annotation></semantics></math> (1 MT) is the value of the initial electron density at 40 miles altitude and the desired distance from a 1 MT explosion at the desired altitude, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>W</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(W)</annotation></semantics></math> is the corresponding initial electron density for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="TeX">W</annotation></semantics></math> MT.</p>
 				<h4>Example:</h4>
 				<p><em>Given:</em> A 500 KT detonation at an altitude of (a) 20 miles, (b) 60 miles.</p>
 				<p><em>Find:</em> In each case, the horizontal distance at an altitude of 40 miles at which the initial electron density from prompt radiation is 10<sup>5</sup> electrons/cm<sup>3</sup> or more.</p>
 				<p><em>Solution:</em> The corresponding electron density for 1 MT is</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mtext>(1 MT)</mtext><mo>=</mo><mfrac><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>W</mi><mo stretchy="false">)</mo></mrow><mi>W</mi></mfrac><mo>=</mo><mfrac><msup><mn>10</mn><mn>5</mn></msup><mn>0.5</mn></mfrac><mo>=</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup><msup><mtext> electrons/cm</mtext><mn>3</mn></msup></mrow><annotation encoding="TeX">
 N_e \text{(1 MT)} = \frac{N_e (W)}{W} = \frac{10^5}{0.5} = 2 \times 10^5 \text{ electrons/cm}^3
-\]
+</annotation></semantics></math>
 
 				<p>From Fig. 10.143, the prompt radiation from a 1 MT explosion will produce initial electron densities of 2 &times; 10<sup>5</sup> electrons per cubic centimeter at an altitude of 40 miles
 				<p><em>(a)</em> to a horizontal range of about 190 miles, if burst is at an altitude of 20 miles. <em>Answer.</em>
@@ -735,73 +719,73 @@ N_e \text{(1 MT)} = \frac{N_e (W)}{W} = \frac{10^5}{0.5} = 2 \times 10^5 \text{ 
 
 
 			<h3>RATE OF DISAPPEARANCE OF FREE ELECTRONS PRODUCED BY PROMPT RADIATION</h3>
-			<div id="§10.145"><p><strong>10.145</strong> Free electrons are removed either by attachment to neutral particles (usually molecular oxygen in the D region) or by recombination with positive ions. The electron loss by recombination is proportional to the number densities of electrons, $N_e$, and of positive ions, $N_+$, so that</p>
+			<div id="§10.145"><p><strong>10.145</strong> Free electrons are removed either by attachment to neutral particles (usually molecular oxygen in the D region) or by recombination with positive ions. The electron loss by recombination is proportional to the number densities of electrons, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mi>e</mi></msub><annotation encoding="TeX">N_e</annotation></semantics></math>, and of positive ions, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mo>+</mo></msub><annotation encoding="TeX">N_+</annotation></semantics></math>, so that</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mi>d</mi><msub><mi>N</mi><mi>e</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mo>−</mo><msub><mi>α</mi><mi>d</mi></msub><msub><mi>N</mi><mo>+</mo></msub><msub><mi>N</mi><mi>e</mi></msub></mrow><annotation encoding="TeX">
 \frac{dN_e}{dt} = -\alpha_d N_+ N_e
-\]
+</annotation></semantics></math>
 <figcaption>(10.145.1)</figcaption>
 </figure>
 
-			<p>where $\alpha_d$ is the recombination coefficient. Below an altitude of about 60 miles, and is approximately 2 &times; 10<sup>-7</sup> cm<sup>3</sup> sec<sup>-1</sup>.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mi>d</mi></msub><annotation encoding="TeX">\alpha_d</annotation></semantics></math> is the recombination coefficient. Below an altitude of about 60 miles, and is approximately 2 &times; 10<sup>-7</sup> cm<sup>3</sup> sec<sup>-1</sup>.</p></div>
 			<div id="§10.146"><p><strong>10.146</strong> Electron loss by attachment to molecular oxygen is proportional to the square of the atmospheric density and the number density of electrons; thus,</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mi>d</mi><msub><mi>N</mi><mi>e</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mo>−</mo><mi>β</mi><msup><mi>ρ</mi><mn>2</mn></msup><msub><mi>N</mi><mi>e</mi></msub><mo>,</mo></mrow><annotation encoding="TeX">
 \frac{dN_e}{dt} = -\beta \rho^2 N_e,
-\]
+</annotation></semantics></math>
 <figcaption>(10.146.1)</figcaption>
 </figure>
 
-			<p>where $\beta$ is an attachment coefficient approximately equal to 4 &times; 10<sup>13</sup> cm<sup>6</sup>g<sup>-2</sup> sec<sup>-1</sup>. The quantity $\beta\rho^2$ is often called the attachment rate coefficient, $K$; it decreases from 6 &times; 10<sup>7</sup> sec<sup>-1</sup> at sea level to about 2 &times; 10<sup>-3</sup> sec<sup>-1</sup> at 55 miles altitude.</p></div>
-			<div id="§10.147"><p><strong>10.147</strong> After electrons are attached to molecules to form negative ions, they may become detached by solar radiation or by collisional processes. The rate of free electron production by detachment is proportional to the number density of negative ions, $N_-$, and the detachment source strength, i.e.,</p>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="TeX">\beta</annotation></semantics></math> is an attachment coefficient approximately equal to 4 &times; 10<sup>13</sup> cm<sup>6</sup>g<sup>-2</sup> sec<sup>-1</sup>. The quantity <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><msup><mi>ρ</mi><mn>2</mn></msup></mrow><annotation encoding="TeX">\beta\rho^2</annotation></semantics></math> is often called the attachment rate coefficient, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>K</mi><annotation encoding="TeX">K</annotation></semantics></math>; it decreases from 6 &times; 10<sup>7</sup> sec<sup>-1</sup> at sea level to about 2 &times; 10<sup>-3</sup> sec<sup>-1</sup> at 55 miles altitude.</p></div>
+			<div id="§10.147"><p><strong>10.147</strong> After electrons are attached to molecules to form negative ions, they may become detached by solar radiation or by collisional processes. The rate of free electron production by detachment is proportional to the number density of negative ions, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>N</mi><mo>−</mo></msub><annotation encoding="TeX">N_-</annotation></semantics></math>, and the detachment source strength, i.e.,</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mi>d</mi><msub><mi>N</mi><mi>e</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>S</mi><msub><mi>N</mi><mo>−</mo></msub><mo>,</mo></mrow><annotation encoding="TeX">
 \frac{dN_e}{dt} = SN_-,
-\]
+</annotation></semantics></math>
 <figcaption>(10.147.1)</figcaption>
 </figure>
 
-			<p>where $S$, the detachment rate coefficient, is related to the detachment source strength. In the daytime, $S$ is approximately 0.4 sec<sup>-1</sup> above about 35 miles altitude. Below about 35 miles the value of $S$ is uncertain but apparently it is lower by several orders of magnitude. At night, detachment is negligible at altitudes less than about 50 miles.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="TeX">S</annotation></semantics></math>, the detachment rate coefficient, is related to the detachment source strength. In the daytime, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="TeX">S</annotation></semantics></math> is approximately 0.4 sec<sup>-1</sup> above about 35 miles altitude. Below about 35 miles the value of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="TeX">S</annotation></semantics></math> is uncertain but apparently it is lower by several orders of magnitude. At night, detachment is negligible at altitudes less than about 50 miles.</p></div>
 			<div id="§10.148"><p><strong>10.148</strong> Negative ions formed by attachment of electrons to molecular oxygen can also react with positive ions to form neutral molecules. Since the negative and positive ion densities affect the electron density, the ion loss by recommendation must be considered. The rate of positive ion loss by recombination with negative ions is proportional to the number densities of both ions; thus,</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mi>d</mi><msub><mi>N</mi><mo>+</mo></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><msub><mi>α</mi><mn>1</mn></msub><msub><mi>N</mi><mo>−</mo></msub><msub><mi>N</mi><mo>+</mo></msub><mo>,</mo></mrow><annotation encoding="TeX">
 \frac{dN_+}{dt} = \alpha_1 N_- N_+,
-\]
+</annotation></semantics></math>
 <figcaption>(10.148.1)</figcaption>
 </figure>
 
-			<p>where $\alpha_1$, usually known as the mutual neutralization coefficient, is equal to about 3 &times; 10<sup>-8</sup> cm<sup>3</sup> sec<sup>-1</sup> above 30 miles. Below 30 miles, $\alpha_1$ is approximately proportional to the atmospheric density and is 4 &times; 10<sup>-6</sup> cm<sup>3</sup> sec<sup>-1</sup> at sea level.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>1</mn></msub><annotation encoding="TeX">\alpha_1</annotation></semantics></math>, usually known as the mutual neutralization coefficient, is equal to about 3 &times; 10<sup>-8</sup> cm<sup>3</sup> sec<sup>-1</sup> above 30 miles. Below 30 miles, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>1</mn></msub><annotation encoding="TeX">\alpha_1</annotation></semantics></math> is approximately proportional to the atmospheric density and is 4 &times; 10<sup>-6</sup> cm<sup>3</sup> sec<sup>-1</sup> at sea level.</p></div>
 
 			<h3>ELECTRON DENSITIES FROM PROMPT RADIATIONS</h3>
-			<div id="§10.149"><p><strong>10.149</strong> The differential equations describing the time history of electron and ion densities do not have a closed form solution. However, a number of approximations are available, and numerical solutions have been obtained with the aid of computers for particular cases. An approximate solution, which gives reasonable results for many conditions, is the so-called “equal-alpha” approximation. When ad is taken equal to a1, the electron density, $N_e(t)$, as a function of time following a pulse of prompt radiation, can be represented by</p>
+			<div id="§10.149"><p><strong>10.149</strong> The differential equations describing the time history of electron and ion densities do not have a closed form solution. However, a number of approximations are available, and numerical solutions have been obtained with the aid of computers for particular cases. An approximate solution, which gives reasonable results for many conditions, is the so-called “equal-alpha” approximation. When ad is taken equal to a1, the electron density, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(t)</annotation></semantics></math>, as a function of time following a pulse of prompt radiation, can be represented by</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><mi>α</mi><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo><mi>t</mi></mrow></mfrac><mspace width="0.2777777777777778em"/><mo>.</mo><mspace width="0.2777777777777778em"/><mfrac><mrow><mi>S</mi><mo>+</mo><mi>K</mi><msup><mi>e</mi><mrow><mo>−</mo><mo stretchy="false">(</mo><mi>K</mi><mo>+</mo><mi>S</mi><mo stretchy="false">)</mo><mi>t</mi></mrow></msup></mrow><mrow><mi>S</mi><mo>+</mo><mi>K</mi></mrow></mfrac><mo>,</mo></mrow><annotation encoding="TeX">
 N_e(t) = \frac{N_e(0)}{1 + \alpha N_e(0)t} \;.\; \frac{S + Ke^{-(K + S)t}}{S+K},
-\]
+</annotation></semantics></math>
 <figcaption>(10.149.1)</figcaption>
 </figure>
 
-			<p>where $N_e(0)$ is the initial electron density, given by equation (10.142.1), a is an effective recombination coefficient, and t is the time after the burst.</p></div>
-			<div id="§10.150"><p><strong>10.150</strong> Approximate values of $\alpha$, $S$, and $K$ in centimeter-gram-second units are given in Table 10.150 for an altitude of 40 miles in the daytime and 55 miles at night. These are the altitudes, for day and night, respectively, at which maximum attenuation of electromagnetic signals is to be expected (<a href="chapter10.html#§10.129" class="xref">§ 10.129</a>). Upon inserting the appropriate values into equation (10.149.1), the time history of electron density at the altitude of maximum attenuation is found to be</p>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(0)</annotation></semantics></math> is the initial electron density, given by equation (10.142.1), a is an effective recombination coefficient, and t is the time after the burst.</p></div>
+			<div id="§10.150"><p><strong>10.150</strong> Approximate values of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>α</mi><annotation encoding="TeX">\alpha</annotation></semantics></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="TeX">S</annotation></semantics></math>, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>K</mi><annotation encoding="TeX">K</annotation></semantics></math> in centimeter-gram-second units are given in Table 10.150 for an altitude of 40 miles in the daytime and 55 miles at night. These are the altitudes, for day and night, respectively, at which maximum attenuation of electromagnetic signals is to be expected (<a href="chapter10.html#§10.129" class="xref">§ 10.129</a>). Upon inserting the appropriate values into equation (10.149.1), the time history of electron density at the altitude of maximum attenuation is found to be</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mtext> at 40 miles </mtext><mo>≈</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mspace width="0.2777777777777778em"/><mo>.</mo><mspace width="0.2777777777777778em"/><mfrac><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo><mi>t</mi></mrow></mfrac><msup><mtext>cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> (daytime)</mtext></mrow><annotation encoding="TeX">
 N_e(t) \text{ at 40 miles } \approx \frac{1}{3} \;.\; \frac{N_e(0)}{1 + 10^{-7} N_e(0)t} \text{cm}^{-3}\text{ (daytime)}
-\]
+</annotation></semantics></math>
 <figcaption>(10.150.1)</figcaption>
 </figure>
 
 			<p>for times more than a few seconds after the burst in the daytime, and</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mtext> at 55 miles </mtext><mo>≈</mo><mfrac><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo><mi>t</mi></mrow></mfrac><msup><mtext>cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> (nighttime)</mtext></mrow><annotation encoding="TeX">
 N_e(t) \text{ at 55 miles } \approx \frac{N_e(0)}{1 + 2 \times 10^{-7} N_e(0)t} \text{cm}^{-3}\text{ (nighttime)}
-\]
+</annotation></semantics></math>
 <figcaption>(10.150.2)</figcaption>
 </figure>
 
@@ -849,9 +833,9 @@ N_e(t) \text{ at 55 miles } \approx \frac{N_e(0)}{1 + 2 \times 10^{-7} N_e(0)t} 
 				<p><em>Find:</em> The one-way attenuation of a 100-MHz radar system that would result from D-region ionization at 30 seconds after the burst; the radar beam makes an angle of 80 degrees (sec i = 6) with the vertical and intersects the 40 mile altitude layer at a horizontal distance of 125 miles from the burst.</p>
 				<p><em>Solution:</em> From Fig. 10.143, the initial electron density at a horizontal distance of 125 miles from a 1 MT explosion at an altitude of 30 miles is about 5 &times; 10<sup>6</sup> electrons/cm<sup>3</sup>. From Fig. 10.151, this initial value will have decayed to about 10<sup>5</sup> electrons/cm<sup>3</sup> by 30 seconds after the burst. By use of equation (10.130.2), the attenuation is</p>
 
-\[
-A \approx 0.4 \frac{N_e}{f^2} \text{ sec } i = 0.4 \frac{10^5}{10^4} \times 6 = 24 \text{ decibels. } \textit{ Answer.}
-\]
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>A</mi><mo>≈</mo><mn>0.4</mn><mfrac><msub><mi>N</mi><mi>e</mi></msub><msup><mi>f</mi><mn>2</mn></msup></mfrac><mtext> sec </mtext><mi>i</mi><mo>=</mo><mn>0.4</mn><mfrac><msup><mn>10</mn><mn>5</mn></msup><msup><mn>10</mn><mn>4</mn></msup></mfrac><mo>×</mo><mn>6</mn><mo>=</mo><mn>24</mn><mtext> decibels. </mtext><mtext>\</mtext><mi>T</mi><mi>e</mi><mi>x</mi><mi>t</mi><mi>i</mi><mi>t</mi><mrow><mi>A</mi><mi>n</mi><mi>s</mi><mi>w</mi><mi>e</mi><mi>r</mi><mo>.</mo></mrow></mrow><annotation encoding="TeX">
+A \approx 0.4 \frac{N_e}{f^2} \text{ sec } i = 0.4 \frac{10^5}{10^4} \times 6 = 24 \text{ decibels. } \Textit{ Answer.}
+</annotation></semantics></math>
 
 				<p><em>Note:</em> The attenuation determined above is due only to prompt radiation. The effect of delayed radiation should also be investigated to estimate the overall effect on the system (<a href="chapter10.html#§10.154" class="xref">§ 10.154</a> <i>et seq.</i>).
 			<figure id="fig10-151">
@@ -864,13 +848,13 @@ A \approx 0.4 \frac{N_e}{f^2} \text{ sec } i = 0.4 \frac{10^5}{10^4} \times 6 = 
 
 
 
-			<div id="§10.152"><p><strong>10.152</strong> There are two aspects of Fig. 10.151 that are of special interest. First, it is seen that when the initial electron density, $N_e(0)$, is greater than 10<sup>7</sup> electrons/cm<sup>3</sup> the electron density, $N_e(t)$, at any time more than about 1 second after the burst (in daytime) is independent of the initial value. This condition is referred to as a “saturated atmosphere.” It is to be expected from equation (10.150.1), since when $N_e(0)$ is more than 10<sup>7</sup> and t is at least a few seconds, the quantity $10^{-7} N_e(0)t$ in the denominator of the equation is greater than unity. Hence, the latter can be neglected and equation (10.150.1) reduces to</p>
+			<div id="§10.152"><p><strong>10.152</strong> There are two aspects of Fig. 10.151 that are of special interest. First, it is seen that when the initial electron density, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(0)</annotation></semantics></math>, is greater than 10<sup>7</sup> electrons/cm<sup>3</sup> the electron density, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(t)</annotation></semantics></math>, at any time more than about 1 second after the burst (in daytime) is independent of the initial value. This condition is referred to as a “saturated atmosphere.” It is to be expected from equation (10.150.1), since when <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(0)</annotation></semantics></math> is more than 10<sup>7</sup> and t is at least a few seconds, the quantity <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo><mi>t</mi></mrow><annotation encoding="TeX">10^{-7} N_e(0)t</annotation></semantics></math> in the denominator of the equation is greater than unity. Hence, the latter can be neglected and equation (10.150.1) reduces to</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>≈</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup><mi>t</mi></mrow></mfrac><mi>c</mi><msup><mi>m</mi><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 N_e(t) \approx \frac{1}{3 \times 10^{-7}t} cm^{-3},
-\]
+</annotation></semantics></math>
 
-			<p>so that the electron density at time $t$ is independent of the initial value.</p></div>
+			<p>so that the electron density at time <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="TeX">t</annotation></semantics></math> is independent of the initial value.</p></div>
 			<p id="§10.153"><strong>10.153</strong> The other matter of interest is that, regardless of the initial value, the electron density in the daytime will have decreased to 10<sup>3</sup> electrons/cm<sup>3</sup> within an hour (or so). This fact is apparent from Fig. 10.151 or it can be derived from equation (10.150.1). It follows, therefore, that significant degradation of HF or radar systems as the result of ionization by prompt radiation will not persist for more than an hour or so in the daytime. At night, decay is faster, as is apparent from equation (10.150.2), and effects on electromagnetic waves of the prompt radiations can usually be neglected. As will be seen later, the effects of the delayed radiation may persist for longer times.</p>
 
 
@@ -878,47 +862,47 @@ N_e(t) \approx \frac{1}{3 \times 10^{-7}t} cm^{-3},
 			<div id="§10.154"><p><strong>10.154</strong> The rate of energy emission as delayed (beta and gamma) radiation from the radioactive residues of a nuclear explosion, consisting mainly of fission products but including activity induced by neutrons in the weapon material (<a href="chapter9.html#§9.32" class="xref">§ 9.32</a>), is represented by</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>I</mi><mi>t</mi></msub><mo>=</mo><msub><mi>I</mi><mn>1</mn></msub><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1.2</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 I_t = I_1 (1 + t)^{-1.2},
-\]
+</annotation></semantics></math>
 <figcaption>(10.154.1)</figcaption>
 </figure>
 
-			<p>where $I_t$ is the rate of energy emission at $t$ seconds after the detonation and $I_1$ is the value after 1 second.<sup><a href="#fnote07">7</a></sup> The total beta and gamma energy emitted is obtained (approximately) by integrating between zero time and infinity; thus,</p>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>I</mi><mi>t</mi></msub><annotation encoding="TeX">I_t</annotation></semantics></math> is the rate of energy emission at <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="TeX">t</annotation></semantics></math> seconds after the detonation and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>I</mi><mn>1</mn></msub><annotation encoding="TeX">I_1</annotation></semantics></math> is the value after 1 second.<sup><a href="#fnote07">7</a></sup> The total beta and gamma energy emitted is obtained (approximately) by integrating between zero time and infinity; thus,</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>Total energy </mtext><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>∞</mn></msubsup><msub><mi>I</mi><mn>1</mn></msub><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1.2</mn></mrow></msup><mi>d</mi><mi>t</mi><mo>=</mo><mn>5</mn><msub><mi>I</mi><mn>1</mn></msub><mo>.</mo></mrow><annotation encoding="TeX">
 \text{Total energy } = \int_0^\infty I_1 (1 + t)^{-1.2}dt = 5I_1.
-\]
+</annotation></semantics></math>
 
 			<p>The fraction of the delayed radiation energy emitted per second at time t is then</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><msub><mi>I</mi><mn>1</mn></msub><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1.2</mn></mrow></msup></mrow><mrow><mn>5</mn><msub><mi>I</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><mn>0.2</mn><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1.2</mn></mrow></msup><mo>.</mo></mrow><annotation encoding="TeX">
 \frac{I_1 (1 + t)^{-1.2}}{5I_1} = 0.2 (1 + t)^{-1.2}.
-\]
+</annotation></semantics></math>
 </div>
 			
-			<p id="§10.155"><strong>10.155</strong> About 7 percent of the fission explosion energy is radiated as delayed beta particles and gamma rays, with approximately half carried by each kind of radiation. Hence, for an explosion of $W_F$ kilotons fission yield, roughly $0.007 (1 + 1)^{-1.2}W_F$ kilotons of energy per second are radiated by beta particles and the same amount by gamma rays.</p>
-			<div id="§10.156"><p><strong>10.156</strong> The rate of production of ion pairs (and hence of electrons) by delayed gamma rays can be estimated from an expression similar to that used to determine the electron density arising from the prompt radiation. Thus, if $kW$ in equation (10.142.1) is replaced by $0.007 (1 + 1)^{-1.2}W_F$, the result, assuming a point source for the gamma rays (cf. <a href="chapter10.html#§10.138" class="xref">§ 10.138</a>), is</p>
+			<p id="§10.155"><strong>10.155</strong> About 7 percent of the fission explosion energy is radiated as delayed beta particles and gamma rays, with approximately half carried by each kind of radiation. Hence, for an explosion of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>W</mi><mi>F</mi></msub><annotation encoding="TeX">W_F</annotation></semantics></math> kilotons fission yield, roughly <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.007</mn><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1.2</mn></mrow></msup><msub><mi>W</mi><mi>F</mi></msub></mrow><annotation encoding="TeX">0.007 (1 + 1)^{-1.2}W_F</annotation></semantics></math> kilotons of energy per second are radiated by beta particles and the same amount by gamma rays.</p>
+			<div id="§10.156"><p><strong>10.156</strong> The rate of production of ion pairs (and hence of electrons) by delayed gamma rays can be estimated from an expression similar to that used to determine the electron density arising from the prompt radiation. Thus, if <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mi>W</mi></mrow><annotation encoding="TeX">kW</annotation></semantics></math> in equation (10.142.1) is replaced by <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.007</mn><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1.2</mn></mrow></msup><msub><mi>W</mi><mi>F</mi></msub></mrow><annotation encoding="TeX">0.007 (1 + 1)^{-1.2}W_F</annotation></semantics></math>, the result, assuming a point source for the gamma rays (cf. <a href="chapter10.html#§10.138" class="xref">§ 10.138</a>), is</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>q</mi><mi>γ</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mn>1.7</mn><mo>×</mo><msup><mn>10</mn><mn>16</mn></msup><mfrac><msub><mi>W</mi><mi>F</mi></msub><mrow><msup><mi>D</mi><mn>2</mn></msup><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mn>1.2</mn></msup></mrow></mfrac><mi>ρ</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo><msup><mtext> cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><msup><mtext> sec</mtext><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>,</mo></mrow><annotation encoding="TeX">
 q_\gamma(t) = 1.7 \times 10^{16} \frac{W_F}{D^2(1+t)^{1.2}} \rho(H)F(M) \text{ cm}^{-3} \text{ sec}^{-1},
-\]
+</annotation></semantics></math>
 <figcaption>(10.156.1)</figcaption>
 </figure>
 
-			<p>where $q_\gamma(t)$ cm<sup>-3</sup>sec<sup>-1</sup> is the electron production rate at time $t$ seconds after the nuclear detonation, as observed at a slant distance $D$ miles at an altitude of H miles (see Fig. 10.140). The function $F(M)$ can be obtained from Fig. 10.142 with M defined by an equation similar to equation (10.140.1), except that the detonation altitude $H_0$ is replaced by the debris altitude $H_D$.</p></div>
-			<div id="§10.157"><p><strong>10.157</strong> The radial motion of the beta particles is largely prevented by the geomagnetic field lines. The area of the D-region at an altitude of 40 miles where the beta ionization occurs is then approximately the same as the area of the debris (Fig. 10.47). If the latter rises above 40 miles, roughly half of the energy is deposited in the local D-region and half at the magnetic conjugate. The total area over which the beta-particle energy is deposited is thus twice the debris area. If the debris is assumed to be uniformly distributed over an area $A$, which may be taken to be $\pi R^2$, where $R$ is the debris radius, the electron production rate from ionization due to beta particles in each D-region is then</p>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>q</mi><mi>γ</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">q_\gamma(t)</annotation></semantics></math> cm<sup>-3</sup>sec<sup>-1</sup> is the electron production rate at time <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="TeX">t</annotation></semantics></math> seconds after the nuclear detonation, as observed at a slant distance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="TeX">D</annotation></semantics></math> miles at an altitude of H miles (see Fig. 10.140). The function <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">F(M)</annotation></semantics></math> can be obtained from Fig. 10.142 with M defined by an equation similar to equation (10.140.1), except that the detonation altitude <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mn>0</mn></msub><annotation encoding="TeX">H_0</annotation></semantics></math> is replaced by the debris altitude <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mi>D</mi></msub><annotation encoding="TeX">H_D</annotation></semantics></math>.</p></div>
+			<div id="§10.157"><p><strong>10.157</strong> The radial motion of the beta particles is largely prevented by the geomagnetic field lines. The area of the D-region at an altitude of 40 miles where the beta ionization occurs is then approximately the same as the area of the debris (Fig. 10.47). If the latter rises above 40 miles, roughly half of the energy is deposited in the local D-region and half at the magnetic conjugate. The total area over which the beta-particle energy is deposited is thus twice the debris area. If the debris is assumed to be uniformly distributed over an area <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="TeX">A</annotation></semantics></math>, which may be taken to be <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup></mrow><annotation encoding="TeX">\pi R^2</annotation></semantics></math>, where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="TeX">R</annotation></semantics></math> is the debris radius, the electron production rate from ionization due to beta particles in each D-region is then</p>
 
 <figure class="numbered equation">
-\[
-q_\beta(t) = 2.1 \times 10^{17} \frac{W_F}{2A(1+t)^{1.2} \sin &phi;}
-\]
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>q</mi><mi>β</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mn>2.1</mn><mo>×</mo><msup><mn>10</mn><mn>17</mn></msup><mfrac><msub><mi>W</mi><mi>F</mi></msub><mrow><mn>2</mn><mi>A</mi><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mn>1.2</mn></msup><mo lspace="0em" rspace="0em">sin</mo><mi>ϕ</mi></mrow></mfrac></mrow><annotation encoding="TeX">
+q_\beta(t) = 2.1 \times 10^{17} \frac{W_F}{2A(1+t)^{1.2} \sin ϕ} 
+</annotation></semantics></math>
 <figcaption>(10.157.1)</figcaption>
 </figure>
 			
-			<p>where &phi; is the local magnetic dip angle and $A$ is in square miles. The change in the numerical factor (by 4&pi;) arises from the replacement of the area $4\pi D^2$ in equation (10.156.1) by $2A$ in equation (10.157.1) and sin &phi; is required because of the motion of the beta particles along the field lines. The function $F(M)$ is evaluated from Fig. 10.142 for where $H_D$ is the debris altitude in miles; in this expression the curvature of the earth is neglected.</p></div>
-			<p id="§10.158"><strong>10.158</strong> In order to use equations (10.156.1) and (10.157.1) it is necessary to know the altitude, $H_D$, and radius, $R$, of the weapon debris. Determination of these quantities requires an understanding of the processes taking place as the debris cloud rises and spreads horizontally. The actual processes are very complex, but a simple model which parallels the gross features of the debris motion has been developed. The debris height and radius, as they change with time, for various burst altitudes as obtained from this model are shown in Figs. 10.158a, b, and c, for energy yields of 10 and 100 kilotons and 1 megaton, respectively. For interpolation between these yields, W<sup>1/3</sup> scaling may be used, at least for the first few minutes after the explosion. The extreme left-hand end of each curve indicates the altitude of the explosion and the initial size of the fireball. It should be noted that when using Figs. 10.158a, b, and c that $W$ is the total energy yield of the explosion. For thermonuclear weapons, the fission yield $W_F$ in equations (10.156.1) and (10.157.1) is generally taken to be half of the total yield.</p>
+			<p>where ϕ is the local magnetic dip angle and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="TeX">A</annotation></semantics></math> is in square miles. The change in the numerical factor (by 4&pi;) arises from the replacement of the area <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mi>π</mi><msup><mi>D</mi><mn>2</mn></msup></mrow><annotation encoding="TeX">4\pi D^2</annotation></semantics></math> in equation (10.156.1) by <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>A</mi></mrow><annotation encoding="TeX">2A</annotation></semantics></math> in equation (10.157.1) and sin ϕ is required because of the motion of the beta particles along the field lines. The function <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">F(M)</annotation></semantics></math> is evaluated from Fig. 10.142 for where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mi>D</mi></msub><annotation encoding="TeX">H_D</annotation></semantics></math> is the debris altitude in miles; in this expression the curvature of the earth is neglected.</p></div>
+			<p id="§10.158"><strong>10.158</strong> In order to use equations (10.156.1) and (10.157.1) it is necessary to know the altitude, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mi>D</mi></msub><annotation encoding="TeX">H_D</annotation></semantics></math>, and radius, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="TeX">R</annotation></semantics></math>, of the weapon debris. Determination of these quantities requires an understanding of the processes taking place as the debris cloud rises and spreads horizontally. The actual processes are very complex, but a simple model which parallels the gross features of the debris motion has been developed. The debris height and radius, as they change with time, for various burst altitudes as obtained from this model are shown in Figs. 10.158a, b, and c, for energy yields of 10 and 100 kilotons and 1 megaton, respectively. For interpolation between these yields, W<sup>1/3</sup> scaling may be used, at least for the first few minutes after the explosion. The extreme left-hand end of each curve indicates the altitude of the explosion and the initial size of the fireball. It should be noted that when using Figs. 10.158a, b, and c that <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="TeX">W</annotation></semantics></math> is the total energy yield of the explosion. For thermonuclear weapons, the fission yield <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>W</mi><mi>F</mi></msub><annotation encoding="TeX">W_F</annotation></semantics></math> in equations (10.156.1) and (10.157.1) is generally taken to be half of the total yield.</p>
 
 			<figure id="fig10-158">
 				<img src="figures/fig10-158a.png" alt="" loading="lazy">
@@ -943,7 +927,7 @@ q_\beta(t) = 2.1 \times 10^{17} \frac{W_F}{2A(1+t)^{1.2} \sin &phi;}
 
 
 			<h3>ELECTRON DENSITIES FROM DELAYED RADIATIONS</h3>
-			<p id="§10.159"><strong>10.159</strong> The actual electron density, $N_e(t)$, arising from the delayed radiations at a particular location and time can be calculated by assuming that, soon after the detonation, a transient steady state exists at any instant. The value of $N_e(t)$ is then obtained by equating $q_\beta(t)$ or $q_\gamma(t)$ at any time to the rate of loss of electrons by various recombination and attachment processes. The curves in Figs. 10.159a and b, for delayed beta particles and gamma rays, respectively, were obtained in this general manner for an altitude of 40 miles, where maximum attenuation of electromagnetic signals due to ionization from delayed radiations occurs both during day and night. In computing the curves, an accurate treatment for the energy spectra of the radiations was used to evaluate the rate of formation of electrons; removal rates were calculated along the lines indicated in <a href="chapter1.html#§1.145" class="xref">§ 10.145</a> <i>et seq.</i>, with detailed consideration of all important loss mechanisms. The values shown in Fig. 10.159a were computed for a magnetic dip angle of 60°; however, they provide reasonable estimates for dip angles between about 45° and 75°, i.e., for mid-latitudes.</p>
+			<p id="§10.159"><strong>10.159</strong> The actual electron density, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(t)</annotation></semantics></math>, arising from the delayed radiations at a particular location and time can be calculated by assuming that, soon after the detonation, a transient steady state exists at any instant. The value of <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">N_e(t)</annotation></semantics></math> is then obtained by equating <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>q</mi><mi>β</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">q_\beta(t)</annotation></semantics></math> or <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>q</mi><mi>γ</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">q_\gamma(t)</annotation></semantics></math> at any time to the rate of loss of electrons by various recombination and attachment processes. The curves in Figs. 10.159a and b, for delayed beta particles and gamma rays, respectively, were obtained in this general manner for an altitude of 40 miles, where maximum attenuation of electromagnetic signals due to ionization from delayed radiations occurs both during day and night. In computing the curves, an accurate treatment for the energy spectra of the radiations was used to evaluate the rate of formation of electrons; removal rates were calculated along the lines indicated in <a href="chapter1.html#§1.145" class="xref">§ 10.145</a> <i>et seq.</i>, with detailed consideration of all important loss mechanisms. The values shown in Fig. 10.159a were computed for a magnetic dip angle of 60°; however, they provide reasonable estimates for dip angles between about 45° and 75°, i.e., for mid-latitudes.</p>
 
 
 
@@ -953,27 +937,27 @@ q_\beta(t) = 2.1 \times 10^{17} \frac{W_F}{2A(1+t)^{1.2} \sin &phi;}
 <p><em>Given:</em> A 1 MT explosion during the night at an altitude of 25 miles and a location in the northern hemisphere where the magnetic dip angle is 60°.
 <p><em>Find:</em> The electron density in the D-region at a horizontal distance of 250 miles north of the burst point (a) 5 minutes after the explosion, and (b) 2 hours after the explosion.</p>
 <p><em>Solution:</em> Since it is nighttime, any prompt ionization will have died away by the times of interest and can be neglected (<a href="chapter10.html#§10.153" class="xref">§ 10.153</a>).</p>
-<p><em>(a)</em> Interpolation of Fig. 10.158c suggests that by 5 minutes the debris will have reached an altitude ($H_d$) of about 60 miles, with a horizontal radius of about 30 miles. Since the beta particles follow the geomagnetic field lines,
-the ionization they cause at an altitude of 40 miles ($H$) will be centered about a point that is displaced a distance $d$ horizontally from the center of the debris, where $d$ is given (approximately) by</p>
+<p><em>(a)</em> Interpolation of Fig. 10.158c suggests that by 5 minutes the debris will have reached an altitude (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>H</mi><mi>d</mi></msub><annotation encoding="TeX">H_d</annotation></semantics></math>) of about 60 miles, with a horizontal radius of about 30 miles. Since the beta particles follow the geomagnetic field lines,
+the ionization they cause at an altitude of 40 miles (<math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>H</mi><annotation encoding="TeX">H</annotation></semantics></math>) will be centered about a point that is displaced a distance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>d</mi><annotation encoding="TeX">d</annotation></semantics></math> horizontally from the center of the debris, where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>d</mi><annotation encoding="TeX">d</annotation></semantics></math> is given (approximately) by</p>
 
-\[
-d \approx (H_d - H) \tan &phi; = (60 - 40) \tan 60° = 35 \text{ miles.}
-\]
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>d</mi><mo>≈</mo><mo stretchy="false">(</mo><msub><mi>H</mi><mi>d</mi></msub><mo>−</mo><mi>H</mi><mo stretchy="false">)</mo><mo lspace="0em" rspace="0em">tan</mo><mi>ϕ</mi><mo>=</mo><mo stretchy="false">(</mo><mn>60</mn><mo>−</mo><mn>40</mn><mo stretchy="false">)</mo><mo lspace="0em" rspace="0em">tan</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>35</mn><mtext> miles.</mtext></mrow><annotation encoding="TeX">
+d \approx (H_d - H) \tan ϕ = (60 - 40) \tan 60° = 35 \text{ miles.}
+</annotation></semantics></math>
 
 <p>The radial extent of the ionized region will be approximately equal to the debris radius (30 miles). Thus, at 5 minutes after the explosion beta ionization will not affect a point that is located at a horizontal distance of 250 miles from the burst. Hence, at this time only the ionization caused by delayed gamma rays need be considered.</p>
-<p>The distance $D$ from the debris to the point of interest is about 250 miles and 
-the time is 300 seconds. Since the total yield is 1 MT, the fission yield $W_F$ may be taken to be 500 kilotons; hence</p>
+<p>The distance <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="TeX">D</annotation></semantics></math> from the debris to the point of interest is about 250 miles and 
+the time is 300 seconds. Since the total yield is 1 MT, the fission yield <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>W</mi><mi>F</mi></msub><annotation encoding="TeX">W_F</annotation></semantics></math> may be taken to be 500 kilotons; hence</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><msub><mi>W</mi><mi>F</mi></msub><mrow><msup><mi>D</mi><mn>2</mn></msup><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mn>1.2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>500</mn><mrow><mo stretchy="false">(</mo><mn>250</mn><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo stretchy="false">(</mo><mn>301</mn><msup><mo stretchy="false">)</mo><mn>1.2</mn></msup></mrow></mfrac><mo>≈</mo><mn>8</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow><annotation encoding="TeX">
 \frac{W_F}{D^2(1+t)^{1.2}} = \frac{500}{(250)^2(301)^{1.2}} \approx 8 \times 10^{-6}
-\]
+</annotation></semantics></math>
 
 <p>The debris altitude (60 miles) and the horizontal distance (250 miles) are such that the conditions are in Region 1 of Fig. 10.162, so that Fig. 10.159b is applicable.  The electron density due to delayed gamma rays is then found to be 10<sup>3</sup> electrons/cm<sup>3</sup>. <em>Answer.</em></p>
-<p id="fn08"><em>(b)</em> At 2 hours after the explosion, the debris will still be at an altitude of about 60 miles, but interpolation of Fig. 10.158c suggests that it will have spread to a radius of about 250 miles. Since the center of the beta ionization will be displaced about 35 miles farther north, the point of interest will be contained within the beta ionized region.<sup><a href="#fnote08">8</a></sup>  At that time, i.e., $t$ = 7200 sec,</p>
+<p id="fn08"><em>(b)</em> At 2 hours after the explosion, the debris will still be at an altitude of about 60 miles, but interpolation of Fig. 10.158c suggests that it will have spread to a radius of about 250 miles. Since the center of the beta ionization will be displaced about 35 miles farther north, the point of interest will be contained within the beta ionized region.<sup><a href="#fnote08">8</a></sup>  At that time, i.e., <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="TeX">t</annotation></semantics></math> = 7200 sec,</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><msub><mi>W</mi><mi>F</mi></msub><mrow><mi>A</mi><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy="false">)</mo><mn>1.2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>500</mn><mrow><mi>π</mi><mo stretchy="false">(</mo><mn>250</mn><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo stretchy="false">(</mo><mn>7201</mn><msup><mo stretchy="false">)</mo><mn>1.2</mn></msup></mrow></mfrac><mo>≈</mo><mn>6</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>8</mn></mrow></msup></mrow><annotation encoding="TeX">
 \frac{W_F}{A(1+t)^{1.2}} = \frac{500}{\pi(250)^2(7201)^{1.2}} \approx 6 \times 10^{-8}
-\]
+</annotation></semantics></math>
 
 <p>The electron density due to beta particles is found from Fig. 10.159a to be about 2 &times; 10<sup>3</sup> electrons/cm<sup>3</sup>. The electron density from the delayed gamma rays was estimated above to be 10<sup>3</sup> electrons/cm<sup>3</sup> at 5 minutes after the explosion, and so it will be much less at 2 hours. Hence, the ionization due to the gamma rays can be neglected. <em>Answer.</em></p>
 </p>
@@ -1010,30 +994,30 @@ the time is 300 seconds. Since the total yield is 1 MT, the fission yield $W_F$ 
 			<div id="§10.163"><p><strong>10.163</strong> As for prompt radiations (<a href="chapter10.html#§10.149" class="xref">§ 10.149</a> <i>et seq.</i>), an approximate solution to the problem of calculating electron densities arising from the delayed radiations, which is consistent with Figs. 10.159a and b, can be obtained by using the equal alpha approximation to determine the loss rate at any instant. The result can be written in the form</p>
 
 <figure class="numbered equation">
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mrow><msqrt><mrow/></msqrt><mi>q</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><mrow><msqrt><mrow/></msqrt><mi>α</mi></mrow></mfrac><mo>.</mo><mfrac><mrow><mi>S</mi><mo>+</mo><msqrt><mrow><mi>α</mi><mi>q</mi></mrow></msqrt><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><mrow><mi>S</mi><mo>+</mo><mi>K</mi><mo>+</mo><msqrt><mrow><mi>α</mi><mi>q</mi></mrow></msqrt><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mfrac><msup><mtext> cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow><annotation encoding="TeX">
 N_e(t) = \frac{ \sqrt{} q(t)}{\sqrt{} \alpha} . \frac{S + \sqrt{\alpha q}(t)}{S + K + \sqrt{\alpha q}(t)}\text{ cm}^{-3}
-\]
+</annotation></semantics></math>
 <figcaption>(10.163.1)</figcaption>
 </figure>
 
-			<p>where $q(t)$ is either the value for beta particles from equation (I0.157.1), or for gamma rays from equation (10.156.1); the coefficients $a$, $S$, and $K$ have the same significance as before. By using the appropriate values of these coefficients for different altitudes, it has been found that the electron densities peak around an altitude of 40 miles for both daytime and nighttime conditions for slant distances more than 30 miles from the burst point. This is also the altitude for the maximum attenuation of electromagnetic signals by the ionization from delayed radiations (<a href="chapter10.html#§10.159" class="xref">§ 10.159</a>). For smaller distances from the burst point, the electron density peaks near the altitude of the debris region.</p></div>
+			<p>where <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="TeX">q(t)</annotation></semantics></math> is either the value for beta particles from equation (I0.157.1), or for gamma rays from equation (10.156.1); the coefficients <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="TeX">a</annotation></semantics></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>S</mi><annotation encoding="TeX">S</annotation></semantics></math>, and <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>K</mi><annotation encoding="TeX">K</annotation></semantics></math> have the same significance as before. By using the appropriate values of these coefficients for different altitudes, it has been found that the electron densities peak around an altitude of 40 miles for both daytime and nighttime conditions for slant distances more than 30 miles from the burst point. This is also the altitude for the maximum attenuation of electromagnetic signals by the ionization from delayed radiations (<a href="chapter10.html#§10.159" class="xref">§ 10.159</a>). For smaller distances from the burst point, the electron density peaks near the altitude of the debris region.</p></div>
 			<div id="§10.164"><p><strong>10.164</strong> For electron production rates less than 10<sup>6</sup> electrons cm<sup>-3</sup> sec<sup>-1</sup>, equation (10.163.1), with the values of a, S, and K given in Table 10.150 for an altitude of 40 miles in the daytime, reduces to</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mtext> at 40 miles </mtext><mo>≈</mo><msup><mn>10</mn><mn>3</mn></msup><msqrt><mrow/></msqrt><mi>q</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><msup><mtext>cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> (daytime).</mtext></mrow><annotation encoding="TeX">
 N_e(t) \text{ at 40 miles } \approx 10^3 \sqrt{} q(t)\text{cm}^{-3} \text{ (daytime).}
-\]
+</annotation></semantics></math>
 
 			<p>At night, the values of a, S, and Kat an altitude of 40 miles are 3 &times; 10<sup>-8</sup>, 0, and 0.8, respectively, and then</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mtext> at 40 miles </mtext><mo>≈</mo><mi>q</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><msup><mtext>cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> (nighttime),</mtext></mrow><annotation encoding="TeX">
 N_e(t) \text{ at 40 miles } \approx q(t)\text{cm}^{-3} \text{ (nighttime),}
-\]
+</annotation></semantics></math>
 
 			<p>for production rates less than about 10<sup>6</sup> electrons cm<sup>-3</sup> sec<sup>-1</sup>. For production rates of about 10<sup>7</sup> (or more) electrons cm<sup>-3</sup> sec<sup>-1</sup> , the electron density at 40 miles is given approximately by</p>
 
-\[
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>N</mi><mi>e</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mtext> at 40 miles </mtext><mo>≈</mo><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>3</mn></msup><mspace width="0.2777777777777778em"/><msqrt><mrow/></msqrt><mi>q</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><msup><mtext> cm</mtext><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>.</mo></mrow><annotation encoding="TeX">
 N_e(t) \text{ at 40 miles } \approx 3 \times 10^3 \; \sqrt{}q(t) \text{ cm}^{-3}.
-\]
+</annotation></semantics></math>
 
 			<p>for both daytime and nighttime. This result is consistent with Figs. 10.159a and b, in which the curves for day and night coincide when the circumstances are such as to lead to high electron densities. The conditions of applicability of these figures, as described in <a href="chapter1.html#§1.160" class="xref">§ 10.160</a> <i>et seq.</i>, also apply to the expressions given above.</p></div>
 		</section>
@@ -1074,7 +1058,7 @@ N_e(t) \text{ at 40 miles } \approx 3 \times 10^3 \; \sqrt{}q(t) \text{ cm}^{-3}
 				<li id="fnote03"><sup>3</sup> The remaining sections of this chapter may be omitted without loss of continuity.
 <span class="backjump">[ref. <a href="#section5">Section 5</a>]</span>
 <a href="#fnclosed" class="close">X</a></li>
-				<li id="fnote04"><sup>4</sup> The quantity 10<sup>-2</sup>&Sqrt;<i>N<sub>e</sub></i> megahertz or, more exactly, $(4\pi N_ee^2/m)^½$ radians per second, is called the “critical frequency” or “plasma frequency” of an ionized medium, i.e., a plasma. It is the frequency for which the index of refraction of the given medium is zero. It is also the lowest frequency of an electromagnetic wave that can penetrate into the medium, and then only for normal incidence, i.e., for $i = 0$.
+				<li id="fnote04"><sup>4</sup> The quantity 10<sup>-2</sup>&Sqrt;<i>N<sub>e</sub></i> megahertz or, more exactly, <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mn>4</mn><mi>π</mi><msub><mi>N</mi><mi>e</mi></msub><msup><mi>e</mi><mn>2</mn></msup><mo>/</mo><mi>m</mi><msup><mo stretchy="false">)</mo><mtext>½</mtext></msup></mrow><annotation encoding="TeX">(4\pi N_ee^2/m)^½</annotation></semantics></math> radians per second, is called the “critical frequency” or “plasma frequency” of an ionized medium, i.e., a plasma. It is the frequency for which the index of refraction of the given medium is zero. It is also the lowest frequency of an electromagnetic wave that can penetrate into the medium, and then only for normal incidence, i.e., for <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="TeX">i = 0</annotation></semantics></math>.
 <span class="backjump">[ref. <a href="#§10.134">§ 10.134</a>]</span>
 <a href="#fnclosed" class="close">X</a></li>
 				<li id="fnote05"><sup>5</sup> The mass absorption coefficient is similar to the mass attenuation coefficient defined in <a href="chapter8.html#§8.100" class="xref">§ 8.100</a>, except that it involves the energy absorption coefficient, referred to in the footnote to equation (8.95.1).

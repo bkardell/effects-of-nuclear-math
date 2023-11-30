@@ -21,9 +21,27 @@ body {
 	-webkit-hyphens: auto;
 	hyphens: auto;
 }
+
+math[display="block" i] {
+	margin: 1rem 0;
+}
+
+math {
+    font-size: 1rem;
+}
+mfrac {
+    padding-inline-start: 0.275rem;
+    padding-inline-end: 0.275rem;
+}
+
+mtd {
+	text-align: left;
+}
+
 [href]:any-link {
 	text-underline-offset: 0.2em;
 }
+
 
 /* TOC */
 
